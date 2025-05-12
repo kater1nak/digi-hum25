@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αποστολή Μυνήματος</title>
+</head>
+<body>
+
+   <form action="">
+      <div> <!--εμφανίζει τα στοιχεία (username, email, message) σε διαφορετικές γραμμές-->
+         <label for="username">Username</label>
+         <input type="text" id="username">
+      </div>
+
+      <div>
+         <label for="email">Email</label>
+         <input type="email" id="email">
+      </div>
+
+      <div>
+         <input type="radio" name="gender" id="male" value="1">
+         <label for="gender">Male</label>
+
+         <input type="radio" name="gender" id="female" value="2">
+         <label for="gender">Female</label>
+
+         <input type="radio" name="gender" id="other" value="3">
+         <label for="gender">Other</label>
+      </div>
+
+      <div>
+         <input type="checkbox" name="married" id="married" value="1">
+         <label for="married">Married</label>
+      </div>
+
+      <div>
+         <label for="level">Επίπεδο Γνώσεων</label>
+         <select name="level" id="level">
+            <option value="1">BSc</option>
+            <option value="2">MSc</option>
+            <option value="3">PHd</option>
+         </select>
+      </div>
+
+      <div>
+         <label for="message">Message</label>
+         <textarea id="message" cols="50" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+  </form>
+
+</body>
